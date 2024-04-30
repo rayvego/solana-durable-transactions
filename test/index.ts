@@ -16,7 +16,7 @@ import assert from 'assert';
 import dotenv from 'dotenv';
 dotenv.config();
 
-describe('transfer-hook', () => {
+describe('durable nonces', () => {
   const connection = new Connection('http://localhost:8899', 'confirmed');
 
   it('Creates a durable transaction and submits it', async () => {});
